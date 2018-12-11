@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    /*background-color: rgb(243, 240, 240);*/
+    background-color: #f1f3f5;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #45474B;
+}
+header{
+  height: 80px;
+  box-shadow: 1px 2px 2px rgba(46, 46, 46, 0.0784313725490196);
+}
+.grid-container {
+    display: flex;
+    height: 80px;
+    background-color: #fff;
+    flex-direction: row;
+}
+.grid-item {
+    text-align: center;
+}
+#logo{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5px;
+    opacity: 0.7;
+}
+#title{
+    font-size: 18px; 
+    font-weight: 600;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+#welcome{
+    font-size: 18px; 
+    font-weight: 600;
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+table{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /*background-color: aquamarine;*/
+}
+a{
+  text-decoration: none;
+  color: #45474B;
+}
+/*.opciones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}*/
+
+.mensaje{
+    color: #514C4B;
+    width: 60vw;
+    margin-left: 40px;
+}
+
+.publicacion{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2px;
+    box-shadow: 0 5px 8px -7px black;
+}
+
+.pubUsuario{
+    padding: 5px 5px 5px 15px;
+    color:  #12826c;
+    font-weight: 600;
+}
+
+.pubNoticia{
+    padding: 5px;
+    color: #45474B;
+}
+.pubFecha{
+    align-self: flex-end;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(115, 119, 125);
+    padding: 5px;
+}
+
+.pubLike{
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.numLike{
+    margin-left: 5px;
+}
+
+.pubComentario{
+    padding: 5px;
+}
+
+.grid-fotos{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    width: 60vw;
+    margin-left: 40px;
+    justify-content: space-evenly;
+}
+
+.publicacionImagen{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 5px 8px -7px black;
+}
+
+.pubImagen{
+    width: 300px;
+    height: 300px;
+    background-image: inherit;
+}
+
+.pubUsuarioImagen{
+    padding: 5px 5px 5px 15px;
+    color:  #12826c;
+    font-weight: 600;
+}
+
+.pubDescripcion{
+    padding: 5px;
+    color: #45474B;
+}
+
+
+#b_gusta{
+    width: 15px;
+    height: 15px;
+}
+
+.images_usuario{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.images_usuario img {
+    width: 100%;
+    height: auto;
+}
